@@ -3,11 +3,11 @@ const router = Router();
 const {Client} = require('pg');
 
 const client = new Client({
-    host: 'dpg-cdlg2fta4997vad3niv0-a.oregon-postgres.render.com',
+    host: 'dpg-cfm460cgqg469ks95d9g-a.oregon-postgres.render.com',
     port: 5432,
     user: 'integrador',
-    password: 'htr6ypfBVdEo0RGQ5WVNAkQbBOtyy537',
-    database: 'interfazbtdb',
+    password: '3VdNwTCWGduR2byFPlcNR8f7IhyeBoY9',
+    database: 'interfazbtdb_m9zt',
     ssl: {
         rejectUnauthorized: false
     }
